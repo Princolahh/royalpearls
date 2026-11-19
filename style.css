@@ -57,3 +57,9 @@ footer a{color:#fff}
 .photo{margin:1.5rem 0 0}
 .photo:first-child{margin-top:0}
 .photo img{display:block;width:100%;height:auto;border-radius:14px;border:3px solid var(--gold)}
+.profile{display:grid;gap:1.5rem;grid-template-columns:minmax(0,15rem) 1fr;align-items:start}
+.profile img{width:100%;height:auto;border-radius:14px;border:3px solid var(--gold)}
+.profile h2{margin-bottom:.1em}
+.profile h3{color:#8a6a12;font-size:1.2rem}
+.profile ul{padding-left:1.2rem;margin:.6rem 0 1rem}
+@media (max-width:40rem){.profile{grid-template-columns:1fr}.profile img{max-width:16rem}}
