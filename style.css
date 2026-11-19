@@ -63,3 +63,15 @@ footer a{color:#fff}
 .profile h3{color:#8a6a12;font-size:1.2rem}
 .profile ul{padding-left:1.2rem;margin:.6rem 0 1rem}
 @media (max-width:40rem){.profile{grid-template-columns:1fr}.profile img{max-width:16rem}}
+.vac{background:#13306d;border-color:var(--gold);margin-top:1.5rem;color:#dfe5f5}
+.vac h3{color:var(--gold)}
+.vac h4{color:var(--gold);font-size:1.05rem;margin:1.4rem 0 .4rem;text-transform:uppercase;letter-spacing:.04em}
+.vac p{margin:.5rem 0}
+.vac ul{margin:.3rem 0 .8rem;padding-left:1.2rem}
+.vac a{color:#fff}
+.cd{margin-top:1.2rem;padding:1rem 1.2rem;background:var(--navy);border:2px solid var(--gold);border-radius:14px;text-align:center}
+.cdmsg{color:var(--gold);font-weight:700;margin-bottom:.6rem}
+.cdrow{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem}
+.cdrow div{background:#13306d;border-radius:10px;padding:.6rem .2rem}
+.cdrow b{display:block;font-family:"Young Serif",Georgia,serif;font-weight:400;font-size:clamp(1.5rem,6vw,2.2rem);color:var(--white);line-height:1.1}
+.cdrow span{font-size:.8rem;color:#dfe5f5;text-transform:uppercase;letter-spacing:.05em}
